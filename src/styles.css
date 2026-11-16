@@ -1,1 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+body { background: #f3f6fb; margin: 0; font-family: Georgia, serif; }
+.card { background: white; margin: 12px; padding: 20px 30px; border-radius: 16px; border-left: 6px solid; }
+.card h2 { color: #1a3c6e; }
+.blue { border-color: #2b6cb0; } .green { border-color: #2f9e6e; } .orange { border-color: #f59e0b; }

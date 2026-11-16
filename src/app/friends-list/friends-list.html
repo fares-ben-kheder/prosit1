@@ -1,0 +1,15 @@
+<section class="card green">
+  <h2>Liste des amis</h2>
+
+  <input [value]="name()" />                    
+  <input [value]="name()" (input)="onType($event)" />   
+  <input [(ngModel)]="name" />               
+
+  <ul>
+    @for (f of friends(); track f.id) {
+      <li>{{ f.name }}</li>
+    } @empty {
+      <li>Aucun ami</li>
+    }
+  </ul>
+</section>
